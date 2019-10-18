@@ -2,16 +2,18 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <lingewansui></lingewansui>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import lingewansui from './components/lingewansui.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    lingewansui
   }
 }
 </script>
